@@ -1,0 +1,281 @@
+body {
+  margin: 0;
+  background-color: #c9c9c9;
+  min-width: 1264px;
+  min-height: 700px;
+}
+
+.top {
+  background-color: black;
+
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 0 60px;
+  text-transform: uppercase;
+}
+
+.text {
+  background-color: rgba(0, 0, 0, 0.829);
+  margin-bottom: 30px;
+
+  min-height: 400px;
+}
+.text p {
+  color: white;
+  font-size: 20px;
+  text-align: start;
+  padding: 10px 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+.text h1 {
+  color: white;
+  padding: 30px 50px;
+}
+.text a {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 50px;
+  color: white;
+  text-decoration: none;
+  border: solid 1px white;
+  padding: 5px 10px;
+}
+.middle {
+  min-height: 500px;
+}
+header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.tomas {
+  width: 100%;
+}
+.me {
+  padding: 5px 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  margin-top: 100px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.explore a {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+.text1 {
+  text-align: center;
+  margin-top: 40px;
+}
+.explore p {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 60px;
+}
+.development {
+  width: 400px;
+
+  display: inline-block;
+  margin-left: 200px;
+}
+.development1 {
+  width: 400px;
+
+  display: inline-block;
+  margin-left: 200px;
+}
+.development2 {
+  width: 400px;
+
+  display: inline-block;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+.development p {
+  color: gray;
+}
+.development1 p {
+  color: gray;
+}
+.development2 p {
+  color: gray;
+}
+h1 {
+  text-transform: uppercase;
+}
+hr {
+  margin-bottom: 50px;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  border-top: dotted;
+  border-top: dotted 5px black;
+  width: 60px;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  color: black;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 700px;
+  min-height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+}
+.col img {
+  margin-bottom: 10px;
+  width: 50px;
+}
+h2 {
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+  margin-left: 400px;
+}
+.container2 {
+  max-width: 700px;
+  min-height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto auto auto;
+  justify-content: space-between;
+}
+.container3 {
+  max-width: 700px;
+  min-height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto auto auto;
+  justify-content: space-between;
+}
+.container4 {
+  max-width: 700px;
+  min-height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto auto auto;
+  justify-content: space-between;
+}
+
+.container5 {
+  background-color: rgb(36, 31, 31);
+
+  max-width: 700px;
+  min-height: 90px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto auto auto;
+  justify-content: space-between;
+}
+.col1 {
+  width: 30%;
+  min-height: 120px;
+}
+.col1 img {
+  margin: 0 auto;
+  width: 100%;
+}
+.col2 {
+  width: 100%;
+  min-height: 120px;
+}
+.col2 img {
+  width: 100%;
+}
+h3 a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 40px;
+  border: solid 5px black;
+  margin-left: 230px;
+  position: absolute;
+}
+.me2 {
+  padding: 5px 20px;
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  margin-top: 100px;
+
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.bottom p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 60px;
+}
+.tel {
+  border: solid 2px black;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: gray;
+  display: flex;
+  width: 70%;
+  justify-content: start;
+}
+.tel a {
+  text-decoration: none;
+  color: gray;
+}
+.me3 {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.me4 {
+    margin-bottom: 50px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+}
+.messengers img {
+  width: 30px;
+}
+.messengers {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+  min-width: 1264px;
+  
+}
+.messengers a{
+    padding: 30px 30px;
+}
